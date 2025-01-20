@@ -1,8 +1,22 @@
-# AdGuard Card
-
-A custom card for Home Assistant that displays AdGuard Home statistics and controls.
+# AdGuard Card v1.0.0
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
+Initial release of the AdGuard Card for Home Assistant
+
+Features:
+
+- Display DNS query statistics
+- Show blocking ratio and processing speed
+- Toggle AdGuard protection features
+- Expandable section for additional statistics
+- Responsive design that adapts to your theme
+
+## Installation
+
+After installation, add the following to your Lovelace configuration:
+
+````yaml
+type: custom:adguard-card
 
 ## Features
 
@@ -33,7 +47,7 @@ A custom card for Home Assistant that displays AdGuard Home statistics and contr
    resources:
      - url: /hacsfiles/adguard-card/adguard-card.js
        type: module
-   ```
+````
 
 ## Usage
 
