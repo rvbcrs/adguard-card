@@ -1,0 +1,30 @@
+{
+  "name": "adguard-card",
+  "version": "1.0.0",
+  "description": "AdGuard Home card for Home Assistant",
+  "main": "dist/adguard-card.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [
+    "home-assistant",
+    "homeassistant",
+    "hass",
+    "automation",
+    "lovelace",
+    "adguard",
+    "custom-cards"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^2.7.0",
+    "home-assistant-js-websocket": "^8.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
