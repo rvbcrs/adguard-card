@@ -5,7 +5,8 @@
   "main": "dist/adguard-card.js",
   "scripts": {
     "build": "webpack --mode production",
-    "watch": "webpack --watch --mode development"
+    "watch": "webpack --watch --mode development",
+    "postinstall": "webpack --mode production"
   },
   "keywords": [
     "home-assistant",
@@ -19,12 +20,14 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "lit": "^2.7.0",
-    "home-assistant-js-websocket": "^8.0.1"
+    "lit": "^3.1.0",
+    "home-assistant-js-websocket": "^9.1.0"
   },
   "devDependencies": {
-    "webpack": "^5.80.0",
-    "webpack-cli": "^5.0.2",
-    "webpack-dev-server": "^4.13.3"
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "rimraf": "^5.0.5",
+    "glob": "^10.3.10"
   }
 }
