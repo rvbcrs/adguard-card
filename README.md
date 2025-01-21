@@ -17,6 +17,7 @@ After installation, add the following to your Lovelace configuration:
 
 ````yaml
 type: custom:adguard-card
+````
 
 ## Features
 
@@ -43,7 +44,8 @@ type: custom:adguard-card
 1. Download `adguard-card.js` from the latest release
 2. Copy it to your `www/community/adguard-card/` folder
 3. Add the following to your Lovelace resources:
-   ```yaml
+
+```yaml
    resources:
      - url: /hacsfiles/adguard-card/adguard-card.js
        type: module
